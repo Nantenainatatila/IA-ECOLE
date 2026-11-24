@@ -1,0 +1,24 @@
+# Variables et secrets
+.env
+.env.*
+!.env.example
+
+# Dépendances
+node_modules/
+**/node_modules/
+
+# Builds et installateurs
+dist/
+**/dist/
+release/
+**/release/
+
+# Fichiers locaux
+*.log
+.DS_Store
+
+# Sauvegardes
+*.zip
+*.sql
+*.dump
+*.bak
